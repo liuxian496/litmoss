@@ -55,7 +55,7 @@ function createOverlay(props?: PopupProps) {
 
   overlay = document.createElement('div');
   overlay.className = overlayName;
-  overlay.dataset.testid = 'litten-overlay';
+  overlay.dataset.testid = 'litmoss-overlay';
 
   return overlay;
 }
@@ -67,7 +67,7 @@ function createPopup(props?: PopupProps) {
 
   popup = document.createElement('div');
   popup.className = containerName;
-  popup.dataset.testid = 'litten-popup';
+  popup.dataset.testid = 'litmoss-popup';
   popup.append(createOverlay(props));
   document.body.append(popup);
 

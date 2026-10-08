@@ -210,7 +210,7 @@ export const Ripple = forwardRef(function Ripple(
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
       ref={containerSpan}
-      data-testid="litten-ripple"
+      data-testid="litmoss-ripple"
     >
       {
         <>

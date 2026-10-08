@@ -1,7 +1,7 @@
 export const NoteIcon = () => {
     return (
         <svg
-            className="litten-svg"
+            className="litmoss-svg"
             width="16px"
             height="16px"
             viewBox="0 0 1024 1024"
@@ -29,7 +29,7 @@ export const NoteIcon = () => {
 export const WarningIcon = () => {
     return (
         <svg
-            className="litten-svg"
+            className="litmoss-svg"
             width="16px"
             height="16px"
             viewBox="0 0 1024 1024"
@@ -45,7 +45,7 @@ export const WarningIcon = () => {
 export const DeepIcon = () => {
     return (
         <svg
-            className="litten-svg"
+            className="litmoss-svg"
             width="200px"
             height="200.00px"
             viewBox="0 0 1024 1024"

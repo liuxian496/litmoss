@@ -56,10 +56,10 @@ export const DefaultTest: RippleStory = {
     await step(
       'It "wave" in the document,when "ripple" mousedown',
       async () => {
-        await fireEvent.mouseDown(canvas.getByTestId('litten-ripple'));
+        await fireEvent.mouseDown(canvas.getByTestId('litmoss-ripple'));
 
         await expect(
-          await canvas.findByTestId('litten-ripple__wave')
+          await canvas.findByTestId('litmoss-ripple__wave')
         ).toBeInTheDocument();
       }
     );
@@ -68,30 +68,30 @@ export const DefaultTest: RippleStory = {
       'It "wave" not in the document,when "ripple" mouseup',
       async () => {
         await fireEvent.animationStart(
-          canvas.getByTestId('litten-ripple__wave')
+          canvas.getByTestId('litmoss-ripple__wave')
         );
-        await fireEvent.animationEnd(canvas.getByTestId('litten-ripple__wave'));
+        await fireEvent.animationEnd(canvas.getByTestId('litmoss-ripple__wave'));
 
-        await fireEvent.mouseUp(canvas.getByTestId('litten-ripple'));
+        await fireEvent.mouseUp(canvas.getByTestId('litmoss-ripple'));
 
         await waitFor(() =>
           expect(
-            canvas.queryByTestId('litten-ripple__wave')
+            canvas.queryByTestId('litmoss-ripple__wave')
           ).not.toBeInTheDocument()
         );
       }
     );
 
     await step('Mouseover and mouseout', async () => {
-      await fireEvent.mouseOver(canvas.getByTestId('litten-ripple'));
-      await fireEvent.mouseOut(canvas.getByTestId('litten-ripple'));
+      await fireEvent.mouseOver(canvas.getByTestId('litmoss-ripple'));
+      await fireEvent.mouseOut(canvas.getByTestId('litmoss-ripple'));
     });
 
     await step('Ripple is focused', async () => {
       await userEvent.click(canvas.getByText('Change Focused'));
 
       await expect(
-        await canvas.findByTestId('litten-ripple__focus')
+        await canvas.findByTestId('litmoss-ripple__focus')
       ).toBeInTheDocument();
     });
 
@@ -100,7 +100,7 @@ export const DefaultTest: RippleStory = {
 
       await waitFor(() =>
         expect(
-          canvas.queryByTestId('litten-ripple__focus')
+          canvas.queryByTestId('litmoss-ripple__focus')
         ).not.toBeInTheDocument()
       );
     });

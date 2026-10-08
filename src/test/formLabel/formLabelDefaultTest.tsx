@@ -42,7 +42,7 @@ export const DefaultTest: FormLabelStory = {
         await expect(nameCheckbox).toBeChecked();
 
         expect(
-          canvas.queryByTestId('litten-ripple__focus')
+          canvas.queryByTestId('litmoss-ripple__focus')
         ).not.toBeInTheDocument();
       }
     );

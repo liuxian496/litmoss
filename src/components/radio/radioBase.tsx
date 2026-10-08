@@ -9,7 +9,7 @@ export const CheckedIcon = ({ value, name }: RadioIconProps) => {
   const testId = `radioCheckedIcon-${name}-${value}`;
   return (
     <svg
-      className="litten-svg"
+      className="litmoss-svg"
       style={{ position: 'absolute' }}
       focusable="false"
       aria-hidden="true"
@@ -25,7 +25,7 @@ export const UnCheckedIcon = ({ value, name }: RadioIconProps) => {
   const testId = `radioUnCheckedIcon-${name}-${value}`;
   return (
     <svg
-      className="litten-svg"
+      className="litmoss-svg"
       focusable="false"
       aria-hidden="true"
       viewBox="0 0 24 24"

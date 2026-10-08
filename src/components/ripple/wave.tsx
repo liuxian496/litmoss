@@ -89,7 +89,7 @@ export const Wave = (props: WaveProps) => {
     ((isPressed === true || animationState === AnimationState.start) && (
       <span
         className={`${prefixCls}__wave`}
-        data-testid="litten-ripple__wave"
+        data-testid="litmoss-ripple__wave"
         style={
           waveMode === WaveMode.normal
             ? getWaveStyle(props)

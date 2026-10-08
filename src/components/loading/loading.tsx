@@ -24,7 +24,7 @@ export const Loading = (props: LoadingProps) => {
       <div className={getVisualStates(props)}>
         <span
           className={getProgressVisualStates(props)}
-          data-testid="litten-progress"
+          data-testid="litmoss-progress"
         >
           <CircleProgressIcon {...props} />
         </span>

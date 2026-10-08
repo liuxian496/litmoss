@@ -45,12 +45,12 @@ export const DefaultTest: LoadingStory = {
 
         await waitFor(() => expect(showBtu).toBeDisabled());
 
-        await expect(await body.findByTestId('litten-popup')).toBeVisible();
+        await expect(await body.findByTestId('litmoss-popup')).toBeVisible();
 
-        await expect(await body.findByTestId('litten-overlay')).toBeVisible();
+        await expect(await body.findByTestId('litmoss-overlay')).toBeVisible();
 
         await expect(
-          await body.findByTestId('litten-progress')
+          await body.findByTestId('litmoss-progress')
         ).toBeInTheDocument();
       }
     );
@@ -62,13 +62,13 @@ export const DefaultTest: LoadingStory = {
 
         await waitFor(() => expect(showBtu).toBeEnabled());
 
-        await expect(await body.findByTestId('litten-popup')).not.toBeVisible();
+        await expect(await body.findByTestId('litmoss-popup')).not.toBeVisible();
 
         await expect(
-          await body.findByTestId('litten-overlay')
+          await body.findByTestId('litmoss-overlay')
         ).not.toBeVisible();
 
-        await expect(await body.queryByTestId('litten-progress')).toBeNull();
+        await expect(await body.queryByTestId('litmoss-progress')).toBeNull();
       }
     );
   },

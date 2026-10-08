@@ -43,7 +43,7 @@ export const RippleFocus = (props: RippleFocusProps) => {
     (isFocused === true && (
       <span
         className={`${prefixCls}__focus`}
-        data-testid="litten-ripple__focus"
+        data-testid="litmoss-ripple__focus"
         style={getFocusStyle({
           containerSpanWidth,
           containerSpanHeight,

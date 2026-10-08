@@ -8,7 +8,7 @@
 <p>Litmoss是一个React UI控件库，样式风格参考Google's Material Design，并做了适当取舍。键盘操作、读屏等可访问性，依据W3C「ARIA Authoring Practices Guide（APG）」进行开发。</p>
 
 ## 主页
-[github.io主页](https://liuxian496.github.io/litten/)
+[github.io主页](https://liuxian496.github.io/litmoss/)
 
 [chromatic主页](https://main--650fa3c0e5326b2081708310.chromatic.com/)
 
