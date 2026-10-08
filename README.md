@@ -1,11 +1,11 @@
-# Litten
-![GitHub](https://img.shields.io/github/license/liuxian496/litten)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/liuxian496/litten/litten.yml)
-[![Coverage Status](https://coveralls.io/repos/github/liuxian496/litten/badge.svg?branch=main)](https://coveralls.io/github/liuxian496/litten?branch=main)
-![GitHub Repo stars](https://img.shields.io/github/stars/liuxian496/litten)
+# Litmoss
+![GitHub](https://img.shields.io/github/license/liuxian496/litmoss)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/liuxian496/litmoss/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/liuxian496/litmoss/badge.svg?branch=main)](https://coveralls.io/github/liuxian496/litmoss?branch=main)
+![GitHub Repo stars](https://img.shields.io/github/stars/liuxian496/litmoss)
 
 
-<p>Litten是一个React UI控件库，样式风格参考Google's Material Design，并做了适当取舍。键盘操作、读屏等可访问性，依据W3C「ARIA Authoring Practices Guide（APG）」进行开发。</p>
+<p>Litmoss是一个React UI控件库，样式风格参考Google's Material Design，并做了适当取舍。键盘操作、读屏等可访问性，依据W3C「ARIA Authoring Practices Guide（APG）」进行开发。</p>
 
 ## 主页
 [github.io主页](https://liuxian496.github.io/litten/)
@@ -15,10 +15,10 @@
 ## 使用
 
 ### 1. 安装litten
-npm i litten
+npm i litmoss
 
-### 2. litten依赖的库
-litten，依赖下面的库。
+### 2. litmoss依赖的库
+litmoss，依赖下面的库。
 <code>classnames</code>
 <code>cyndi</code>
 <code>litten-hooks</code>
@@ -29,14 +29,14 @@ litten，依赖下面的库。
 
 ### 3. 引入样式
 控件的样式，在打包好的dist/assets下，请按需引用
-<code>import "litten/dist/assets/button.css";</code>
+<code>import "litmoss/dist/assets/button.css";</code>
 
 ### 3. form
 可以使用litten-form进行表单数据的收集和控制
 [litten-form](https://liuxian496.github.io/litten/)
 
 ## 开发与测试
-<p>使用Storybook进行litten的开发和测试。使用TypeScript作为主要的开发语言。</p>
+<p>使用Storybook进行litmoss的开发和测试。使用TypeScript作为主要的开发语言。</p>
 
 ### 1. 安装依赖
 打开终端，运行：yarn install
