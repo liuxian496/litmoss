@@ -4,6 +4,6 @@ export default create({
   base: 'light',
   brandTitle: 'DOLLS',
   // brandUrl: 'https://example.com',
-  brandImage: './litten.png',
+  brandImage: './litmoss.png',
   brandTarget: '_self',
 });

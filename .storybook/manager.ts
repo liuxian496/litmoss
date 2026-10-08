@@ -1,6 +1,6 @@
 import { addons } from 'storybook/manager-api';
-import littenTheme from './littenTheme';
+import litmossTheme from './litmossTheme';
 
 addons.setConfig({
-    theme: littenTheme,
+    theme: litmossTheme,
 });
