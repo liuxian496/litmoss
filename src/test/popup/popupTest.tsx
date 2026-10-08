@@ -46,10 +46,10 @@ export const PopupTest: UtilStory = {
 
         await waitFor(() => expect(showBtu).toBeDisabled());
 
-        await expect(await body.findByTestId('litten-popup')).toBeVisible();
+        await expect(await body.findByTestId('litmoss-popup')).toBeVisible();
 
         await expect(
-          await body.findByTestId('litten-overlay')
+          await body.findByTestId('litmoss-overlay')
         ).not.toBeVisible();
       }
     );
@@ -61,10 +61,10 @@ export const PopupTest: UtilStory = {
 
         await waitFor(() => expect(showBtu).toBeEnabled());
 
-        await expect(await body.findByTestId('litten-popup')).not.toBeVisible();
+        await expect(await body.findByTestId('litmoss-popup')).not.toBeVisible();
 
         await expect(
-          await body.findByTestId('litten-overlay')
+          await body.findByTestId('litmoss-overlay')
         ).not.toBeVisible();
       }
     );

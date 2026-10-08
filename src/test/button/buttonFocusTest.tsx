@@ -43,11 +43,11 @@ export const FocusTest: ButtonStory = {
       await expect(textBtu).toHaveFocus();
 
       await expect(
-        await canvas.findByTestId('litten-ripple__focus')
+        await canvas.findByTestId('litmoss-ripple__focus')
       ).toBeInTheDocument();
 
       await expect(textBtu).toContainElement(
-        canvas.getByTestId('litten-ripple__focus')
+        canvas.getByTestId('litmoss-ripple__focus')
       );
     });
 
@@ -57,11 +57,11 @@ export const FocusTest: ButtonStory = {
       await expect(primaryBtu).toHaveFocus();
 
       await expect(
-        await canvas.findByTestId('litten-ripple__focus')
+        await canvas.findByTestId('litmoss-ripple__focus')
       ).toBeInTheDocument();
 
       await expect(primaryBtu).toContainElement(
-        canvas.getByTestId('litten-ripple__focus')
+        canvas.getByTestId('litmoss-ripple__focus')
       );
     });
 
@@ -71,11 +71,11 @@ export const FocusTest: ButtonStory = {
       await expect(outlinedBtu).toHaveFocus();
 
       await expect(
-        await canvas.findByTestId('litten-ripple__focus')
+        await canvas.findByTestId('litmoss-ripple__focus')
       ).toBeInTheDocument();
 
       await expect(outlinedBtu).toContainElement(
-        canvas.getByTestId('litten-ripple__focus')
+        canvas.getByTestId('litmoss-ripple__focus')
       );
     });
 
@@ -86,7 +86,7 @@ export const FocusTest: ButtonStory = {
 
       await waitFor(() =>
         expect(
-          canvas.queryByTestId('litten-ripple__focus')
+          canvas.queryByTestId('litmoss-ripple__focus')
         ).not.toBeInTheDocument()
       );
     });

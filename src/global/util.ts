@@ -4,7 +4,7 @@ export function getPrefixNs(
     componentName: string,
     customizePrefix?: string
 ): string {
-    return getLittenPrefixNs(componentName, customizePrefix, "litten");
+    return getLittenPrefixNs(componentName, customizePrefix, "litmoss");
 }
 /**
  * 终止鼠标事件的冒泡

@@ -81,7 +81,7 @@ export const MultiTest: ButtonStory = {
 
       await waitFor(
         async () => {
-          await expect(selectedItem).toHaveClass('litten-listItem--focus');
+          await expect(selectedItem).toHaveClass('litmoss-listItem--focus');
         },
         { timeout: 2000 }
       );

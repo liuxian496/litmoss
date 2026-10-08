@@ -39,7 +39,7 @@ const Test = () => {
       >
         <Wave
           index={0}
-          prefixCls="litten-ripple"
+          prefixCls="litmoss-ripple"
           isPressed={isPressed}
           containerSpanWidth={76}
           containerSpanHeight={37}
@@ -56,7 +56,7 @@ const Test = () => {
         />
         <Wave
           index={1}
-          prefixCls="litten-ripple"
+          prefixCls="litmoss-ripple"
           isPressed={isPressed}
           containerSpanWidth={84}
           containerSpanHeight={37}
@@ -84,10 +84,10 @@ export const WaveTest: RippleStory = {
     await fireEvent.mouseDown(canvas.getByTestId('parent'));
 
     await fireEvent.animationStart(
-      canvas.queryAllByTestId('litten-ripple__wave')[0]
+      canvas.queryAllByTestId('litmoss-ripple__wave')[0]
     );
     await fireEvent.animationEnd(
-      canvas.queryAllByTestId('litten-ripple__wave')[0]
+      canvas.queryAllByTestId('litmoss-ripple__wave')[0]
     );
 
     await expect(

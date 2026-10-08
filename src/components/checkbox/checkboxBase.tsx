@@ -8,7 +8,7 @@ import { type CheckboxProps } from './checkbox.types';
 export const CheckedIcon = () => {
   return (
     <svg
-      className="litten-svg"
+      className="litmoss-svg"
       focusable="false"
       aria-hidden="true"
       viewBox="0 0 24 24"
@@ -22,7 +22,7 @@ export const CheckedIcon = () => {
 export const UnCheckedIcon = () => {
   return (
     <svg
-      className="litten-svg"
+      className="litmoss-svg"
       focusable="false"
       aria-hidden="true"
       viewBox="0 0 24 24"
@@ -36,7 +36,7 @@ export const UnCheckedIcon = () => {
 export const IndeterminateIcon = () => {
   return (
     <svg
-      className="litten-svg"
+      className="litmoss-svg"
       focusable="false"
       aria-hidden="true"
       viewBox="0 0 24 24"

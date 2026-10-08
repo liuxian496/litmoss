@@ -54,7 +54,7 @@ export default defineConfig({
         enum: 'src/enum.ts',
         ...getComponentsEntry(components),
       },
-      name: 'litten',
+      name: 'litmoss',
       fileName: 'index',
     },
     outDir: 'dist',

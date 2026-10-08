@@ -10,7 +10,7 @@ import { Slider } from "../../components/slider/slider";
 export const VolumeDownFillIcon = () => {
     return (
         <svg
-            className="litten-svg"
+            className="litmoss-svg"
             focusable="false"
             aria-hidden="true"
             viewBox="0 0 16 16"
@@ -24,7 +24,7 @@ export const VolumeDownFillIcon = () => {
 export const VolumeUpFillIcon = () => {
     return (
         <svg
-            className="litten-svg"
+            className="litmoss-svg"
             focusable="false"
             aria-hidden="true"
             viewBox="0 0 16 16"
