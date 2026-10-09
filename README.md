@@ -14,7 +14,7 @@
 
 ## 使用
 
-### 1. 安装litten
+### 1. 安装litmoss
 npm i litmoss
 
 ### 2. litmoss依赖的库
@@ -32,8 +32,8 @@ litmoss，依赖下面的库。
 <code>import "litmoss/dist/assets/button.css";</code>
 
 ### 3. form
-可以使用litten-form进行表单数据的收集和控制
-[litten-form](https://liuxian496.github.io/litten/)
+可以使用litmoss-form进行表单数据的收集和控制
+[litmoss-form](https://liuxian496.github.io/litmoss/)
 
 ## 开发与测试
 <p>使用Storybook进行litmoss的开发和测试。使用TypeScript作为主要的开发语言。</p>
