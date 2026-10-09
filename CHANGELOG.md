@@ -1,4 +1,6 @@
 
+## [3.0.1](https://github.com/liuxian496/litmoss/compare/v3.0.0...v3.0.1) (2026-10-09)
+
 # [3.0.0](https://github.com/liuxian496/litmoss/compare/v2.0.1...v3.0.0) (2026-10-08)
 
 ## [2.0.1](https://github.com/liuxian496/litmoss/compare/v2.0.0...v2.0.1) (2026-07-26)
