@@ -4,7 +4,7 @@ import { expect, userEvent, within } from 'storybook/test';
 
 import { SwitchStory } from '../../stories/switch.stories';
 
-import { LittenCheckedChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
+import { LittenCheckedChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
 
 import { Button } from '../../components/button/button';
 import { FormLabel } from '../../components/formLabel/formLabel';

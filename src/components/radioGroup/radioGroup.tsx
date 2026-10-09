@@ -1,6 +1,6 @@
 import type { ChangeEvent } from 'react';
 
-import { ControlType } from 'litten-hooks/dist/enum';
+import { ControlType } from 'litmoss-hooks/dist/enum';
 
 import type { RadioGroupProps } from './radioGroup.types';
 

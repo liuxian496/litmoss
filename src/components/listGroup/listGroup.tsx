@@ -1,4 +1,4 @@
-import { ControlType } from 'litten-hooks';
+import { ControlType } from 'litmoss-hooks';
 import type { ReactNode } from 'react';
 
 export const ListGroup = (props: { children: ReactNode }) => {

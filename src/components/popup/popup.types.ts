@@ -1,4 +1,4 @@
-import type { LayoutControlProps } from 'litten-hooks/dist/control/layoutControl/layoutControl.types';
+import type { LayoutControlProps } from 'litmoss-hooks/dist/control/layoutControl/layoutControl.types';
 
 export interface PopupProps extends LayoutControlProps {
   /**

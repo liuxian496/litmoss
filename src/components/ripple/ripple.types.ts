@@ -1,5 +1,5 @@
-import type { UserControlProps } from 'litten-hooks/dist/control/userControl/userControl.types';
-import { MouseState } from 'litten-hooks/dist/enum';
+import type { UserControlProps } from 'litmoss-hooks/dist/control/userControl/userControl.types';
+import { MouseState } from 'litmoss-hooks/dist/enum';
 import { type ReactNode } from 'react';
 import { AnimationState, WaveMode } from '../../global/enum';
 
@@ -68,19 +68,19 @@ export interface WaveProps extends UserControlProps {
  */
 export type WaveState =
   | {
-      /**
-       * 是否处于按下状态
-       */
-      isPressed: boolean;
-      /**
-       * 动画状态
-       */
-      animationState: AnimationState;
-      /**
-       * 序号
-       */
-      index: number;
-    }
+    /**
+     * 是否处于按下状态
+     */
+    isPressed: boolean;
+    /**
+     * 动画状态
+     */
+    animationState: AnimationState;
+    /**
+     * 序号
+     */
+    index: number;
+  }
   | undefined;
 
 /**

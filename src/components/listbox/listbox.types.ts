@@ -1,6 +1,6 @@
-import type { ContentControlProps } from 'litten-hooks/dist/control/contentControl/contentControl.types';
-import type { SelectedValue } from 'litten-hooks/dist/control/userControl/userControl.types';
-import { MouseState } from 'litten-hooks/dist/enum';
+import type { ContentControlProps } from 'litmoss-hooks/dist/control/contentControl/contentControl.types';
+import type { SelectedValue } from 'litmoss-hooks/dist/control/userControl/userControl.types';
+import { MouseState } from 'litmoss-hooks/dist/enum';
 import type { ReactNode } from 'react';
 
 export interface ListContextProps {

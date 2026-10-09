@@ -4,7 +4,7 @@ import { FormLabelStory } from "../../stories/formLabel.stories";
 
 import { Checkbox } from "../../components/checkbox/checkbox";
 import { FormLabel } from "../../components/formLabel/formLabel";
-import { Placement } from "litten-hooks/dist/enum";
+import { Placement } from "litmoss-hooks/dist/enum";
 
 export const PlacementTest: FormLabelStory = {
     parameters: {

@@ -8,11 +8,11 @@ import {
 } from 'react';
 import './checkbox.less';
 
-import { useCurrentChecked } from 'litten-hooks/dist/checkedControl';
-import { CheckState, ControlType } from 'litten-hooks/dist/enum';
-import { useFocused } from 'litten-hooks/dist/focusControl';
+import { useCurrentChecked } from 'litmoss-hooks/dist/checkedControl';
+import { CheckState, ControlType } from 'litmoss-hooks/dist/enum';
+import { useFocused } from 'litmoss-hooks/dist/focusControl';
 
-import { useDisabled } from 'litten-hooks/dist/disabledControl';
+import { useDisabled } from 'litmoss-hooks/dist/disabledControl';
 
 import { Color, Mode, Size } from '../../global/enum';
 

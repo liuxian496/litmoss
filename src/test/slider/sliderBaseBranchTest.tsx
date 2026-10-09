@@ -1,4 +1,4 @@
-import { Orientation } from 'litten-hooks';
+import { Orientation } from 'litmoss-hooks';
 import { expect } from 'storybook/test';
 
 import { getThumbDisplacement } from '../../components/slider/sliderBase';

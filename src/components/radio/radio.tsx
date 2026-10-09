@@ -10,10 +10,10 @@ import {
 } from 'react';
 import './radio.less';
 
-import { useCurrentChecked } from 'litten-hooks/dist/checkedControl';
-import { useDisabled } from 'litten-hooks/dist/disabledControl';
-import { CheckState, ControlType } from 'litten-hooks/dist/enum';
-import { useFocused } from 'litten-hooks/dist/focusControl';
+import { useCurrentChecked } from 'litmoss-hooks/dist/checkedControl';
+import { useDisabled } from 'litmoss-hooks/dist/disabledControl';
+import { CheckState, ControlType } from 'litmoss-hooks/dist/enum';
+import { useFocused } from 'litmoss-hooks/dist/focusControl';
 
 import { Color, Mode, Size } from '../../global/enum';
 

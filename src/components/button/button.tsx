@@ -1,9 +1,9 @@
 import './button.less';
 
 import classnames from 'classnames';
-import { useDisabled } from 'litten-hooks/dist/disabledControl';
-import { ControlType } from 'litten-hooks/dist/enum';
-import { useFocused } from 'litten-hooks/dist/focusControl';
+import { useDisabled } from 'litmoss-hooks/dist/disabledControl';
+import { ControlType } from 'litmoss-hooks/dist/enum';
+import { useFocused } from 'litmoss-hooks/dist/focusControl';
 
 import { Color, Mode, Size } from '../../global/enum';
 import { getPrefixNs } from '../../global/util';

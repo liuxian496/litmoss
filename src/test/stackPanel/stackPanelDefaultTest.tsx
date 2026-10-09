@@ -5,12 +5,12 @@ import { StackPanelStory } from "../../stories/stackPanel.stories";
 import { StackPanel } from "../../components/stackPanel/stackPanel";
 import { FormLabel } from "../../components/formLabel/formLabel";
 import { Checkbox } from "../../components/checkbox/checkbox";
-import { Placement } from "litten-hooks/dist/enum";
+import { Placement } from "litmoss-hooks/dist/enum";
 
 export const DefaultTest: StackPanelStory = {
     args: {},
     render: (args) => {
-        const { direction="row" } = args;
+        const { direction = "row" } = args;
         return (
             <>
                 <div>{`${direction}:`}</div>

@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 import { expect, userEvent, waitFor, within } from 'storybook/test';
 
-import { LittenCheckedChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
-import { Placement } from 'litten-hooks/dist/enum';
+import { LittenCheckedChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
+import { Placement } from 'litmoss-hooks/dist/enum';
 import { Button } from '../../components/button/button';
 import { FormLabel } from '../../components/formLabel/formLabel';
 import { Radio } from '../../components/radio/radio';

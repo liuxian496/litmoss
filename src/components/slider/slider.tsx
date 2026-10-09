@@ -11,19 +11,19 @@ import './slider.less';
 
 import NP from 'number-precision';
 
-import type { RelativeRect } from 'litten-hooks/dist/control/userControl/userControl.types';
+import type { RelativeRect } from 'litmoss-hooks/dist/control/userControl/userControl.types';
 import {
   ControlType,
   FocusState,
   MouseState,
   Orientation,
-} from 'litten-hooks/dist/enum';
-import { useRelativePosition } from 'litten-hooks/dist/userControl';
+} from 'litmoss-hooks/dist/enum';
+import { useRelativePosition } from 'litmoss-hooks/dist/userControl';
 
 import { Color, Size } from '../../global/enum';
 
-import { useCurrentValue } from 'litten-hooks/dist/contentControl';
-import { useDisabled } from 'litten-hooks/dist/disabledControl';
+import { useCurrentValue } from 'litmoss-hooks/dist/contentControl';
+import { useDisabled } from 'litmoss-hooks/dist/disabledControl';
 
 import type { SliderProps } from './slider.types';
 import {

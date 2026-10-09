@@ -1,4 +1,4 @@
-import { ControlType } from 'litten-hooks/dist/enum';
+import { ControlType } from 'litmoss-hooks/dist/enum';
 import isFunction from 'lodash/isFunction';
 import { useState } from 'react';
 

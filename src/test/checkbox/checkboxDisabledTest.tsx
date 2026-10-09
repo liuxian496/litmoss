@@ -4,7 +4,7 @@ import { expect, fireEvent, userEvent, waitFor, within } from 'storybook/test';
 
 import { CheckboxStory } from '../../stories/checkbox.stories';
 
-import { LittenDisabledChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
+import { LittenDisabledChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
 import { Button } from '../../components/button/button';
 import { Checkbox } from '../../components/checkbox/checkbox';
 import { FormLabel } from '../../components/formLabel/formLabel';

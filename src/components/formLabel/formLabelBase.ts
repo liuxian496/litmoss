@@ -1,5 +1,5 @@
 import classnames from 'classnames';
-import { MouseState } from 'litten-hooks/dist/enum';
+import { MouseState } from 'litmoss-hooks/dist/enum';
 
 import { getPrefixNs } from '../../global/util';
 import { type FormLabelProps } from './formLabel.types';

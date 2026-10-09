@@ -1,5 +1,5 @@
-import type { DisabledControlProps } from 'litten-hooks/dist/control/disabledControl/disabledControl.types';
-import type { SelectedValue } from 'litten-hooks/dist/control/userControl/userControl.types';
+import type { DisabledControlProps } from 'litmoss-hooks/dist/control/disabledControl/disabledControl.types';
+import type { SelectedValue } from 'litmoss-hooks/dist/control/userControl/userControl.types';
 import type { ReactNode } from 'react';
 
 export interface ListItemTemplateArgs {

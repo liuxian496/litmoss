@@ -1,7 +1,7 @@
 import type { MouseEvent, ReactNode } from 'react';
 
-import type { DisabledControlProps } from 'litten-hooks/dist/control/disabledControl/disabledControl.types';
-import type { FocusControlProps } from 'litten-hooks/dist/control/focusControl/focusControl.types';
+import type { DisabledControlProps } from 'litmoss-hooks/dist/control/disabledControl/disabledControl.types';
+import type { FocusControlProps } from 'litmoss-hooks/dist/control/focusControl/focusControl.types';
 import { Color, Mode, Size } from '../../global/enum';
 
 export interface ButtonBaseProps

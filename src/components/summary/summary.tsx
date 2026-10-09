@@ -1,7 +1,7 @@
 import './summary.less';
 
 import classnames from 'classnames';
-import { ControlType } from 'litten-hooks/dist/enum';
+import { ControlType } from 'litmoss-hooks/dist/enum';
 
 import { Color } from '../../global/enum';
 import { getI18NConfig } from '../../global/local';

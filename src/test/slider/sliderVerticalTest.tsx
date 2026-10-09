@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import { Orientation } from 'litten-hooks';
-import { LittenNumberChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
+import { Orientation } from 'litmoss-hooks';
+import { LittenNumberChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
 
 import { expect, fireEvent, userEvent, within } from 'storybook/test';
 import { SliderStory } from '../../stories/slider.stories';

@@ -1,5 +1,5 @@
 import classnames from 'classnames';
-import { CheckState } from 'litten-hooks/dist/enum';
+import { CheckState } from 'litmoss-hooks/dist/enum';
 
 import { getPrefixNs } from '../../global/util';
 
