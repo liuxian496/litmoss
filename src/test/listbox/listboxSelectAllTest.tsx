@@ -1,4 +1,4 @@
-import { Placement } from 'litten-hooks/dist/enum';
+import { Placement } from 'litmoss-hooks/dist/enum';
 import { useEffect, useState } from 'react';
 import { expect, userEvent, waitFor, within } from 'storybook/test';
 
@@ -8,7 +8,7 @@ import {
   LittenCheckedChangeEvent,
   LittenListChangeEvent,
   LittenTextChangeEvent,
-} from 'litten-hooks/dist/control/event/littenEvent.types';
+} from 'litmoss-hooks/dist/control/event/littenEvent.types';
 import { Checkbox } from '../../components/checkbox/checkbox';
 import { FormLabel } from '../../components/formLabel/formLabel';
 import { Listbox } from '../../components/listbox/listbox';

@@ -2,7 +2,7 @@ import { expect, userEvent, within } from 'storybook/test';
 
 import { FormLabelStory } from '../../stories/formLabel.stories';
 
-import { Placement } from 'litten-hooks/dist/enum';
+import { Placement } from 'litmoss-hooks/dist/enum';
 import { Checkbox } from '../../components/checkbox/checkbox';
 import { FormLabel } from '../../components/formLabel/formLabel';
 import { FormLabelProps } from '../../components/formLabel/formLabel.types';

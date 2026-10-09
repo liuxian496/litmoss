@@ -3,7 +3,7 @@ import type { StackPanelProps } from './stackPanel.types';
 
 import classnames from 'classnames';
 
-import { ControlType } from 'litten-hooks/dist/enum';
+import { ControlType } from 'litmoss-hooks/dist/enum';
 import { getPrefixNs } from '../../global/util';
 
 function getVisualStates(props: StackPanelProps) {

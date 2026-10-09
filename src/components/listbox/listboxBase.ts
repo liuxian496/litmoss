@@ -1,11 +1,11 @@
 import { Children, type ReactNode, createContext } from 'react';
 
 import classnames from 'classnames';
-import { ControlType } from 'litten-hooks';
+import { ControlType } from 'litmoss-hooks';
 import type {
   LittenItems,
   SelectedValue,
-} from 'litten-hooks/dist/control/userControl/userControl.types';
+} from 'litmoss-hooks/dist/control/userControl/userControl.types';
 import isArray from 'lodash/isArray';
 
 import { getPrefixNs } from '../../global/util';

@@ -4,8 +4,8 @@ import { expect, userEvent, within } from 'storybook/test';
 
 import { RadioStory } from '../../stories/radio.stories';
 
-import { LittenCheckedChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
-import { Placement } from 'litten-hooks/dist/enum';
+import { LittenCheckedChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
+import { Placement } from 'litmoss-hooks/dist/enum';
 
 import { Button } from '../../components/button/button';
 import { FormLabel } from '../../components/formLabel/formLabel';
@@ -28,8 +28,7 @@ const Test = () => {
 
   function handleClick() {
     setValue(
-      `Checked by Ref: ${appleRef.current?.checked ? 'apple' : ''} ${
-        bananaRef.current?.checked ? 'banana' : ''
+      `Checked by Ref: ${appleRef.current?.checked ? 'apple' : ''} ${bananaRef.current?.checked ? 'banana' : ''
       } ${peachRef.current?.checked ? 'peach' : ''}`
     );
   }

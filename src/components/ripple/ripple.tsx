@@ -8,7 +8,7 @@ import React, {
 
 import './ripple.less';
 
-import { ControlType, MouseState } from 'litten-hooks/dist/enum';
+import { ControlType, MouseState } from 'litmoss-hooks/dist/enum';
 
 import { AnimationState, WaveMode } from '../../global/enum';
 import { getPrefixNs } from '../../global/util';

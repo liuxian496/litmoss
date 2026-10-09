@@ -2,8 +2,8 @@ import classnames from 'classnames';
 import type {
   RelativeRect,
   VisualStates,
-} from 'litten-hooks/dist/control/userControl/userControl.types';
-import { Orientation } from 'litten-hooks/dist/enum';
+} from 'litmoss-hooks/dist/control/userControl/userControl.types';
+import { Orientation } from 'litmoss-hooks/dist/enum';
 import NP from 'number-precision';
 
 import { getPrefixNs } from '../../global/util';

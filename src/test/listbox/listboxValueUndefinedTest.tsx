@@ -1,4 +1,4 @@
-import { LittenListChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
+import { LittenListChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
 import { useState } from 'react';
 import { expect, userEvent, within } from 'storybook/test';
 

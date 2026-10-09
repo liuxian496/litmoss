@@ -2,7 +2,7 @@ import classnames from 'classnames';
 import type {
   SelectedValue,
   VisualStates,
-} from 'litten-hooks/dist/control/userControl/userControl.types';
+} from 'litmoss-hooks/dist/control/userControl/userControl.types';
 import isArray from 'lodash/isArray';
 
 import { getPrefixNs } from '../../global/util';

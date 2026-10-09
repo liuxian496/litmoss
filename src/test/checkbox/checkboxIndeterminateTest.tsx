@@ -4,8 +4,8 @@ import { expect, userEvent, within } from 'storybook/test';
 
 import { CheckboxStory } from '../../stories/checkbox.stories';
 
-import { LittenCheckedChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
-import { Placement } from 'litten-hooks/dist/enum';
+import { LittenCheckedChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
+import { Placement } from 'litmoss-hooks/dist/enum';
 
 import { Checkbox } from '../../components/checkbox/checkbox';
 import { FormLabel } from '../../components/formLabel/formLabel';

@@ -1,5 +1,5 @@
-import type { LayoutControlProps } from 'litten-hooks/dist/control/layoutControl/layoutControl.types';
-import type { StyleValue } from 'litten-hooks/dist/control/userControl/userControl.types';
+import type { LayoutControlProps } from 'litmoss-hooks/dist/control/layoutControl/layoutControl.types';
+import type { StyleValue } from 'litmoss-hooks/dist/control/userControl/userControl.types';
 
 export interface StackPanelProps extends LayoutControlProps {
   /**

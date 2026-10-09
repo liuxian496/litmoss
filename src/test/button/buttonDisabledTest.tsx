@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Placement } from 'litten-hooks/dist/enum';
+import { Placement } from 'litmoss-hooks/dist/enum';
 
 import { expect, userEvent, waitFor, within } from 'storybook/test';
 
@@ -9,7 +9,7 @@ import { ButtonStory } from '../../stories/button.stories';
 import {
   LittenCheckedChangeEvent,
   LittenDisabledChangeEvent,
-} from 'litten-hooks/dist/control/event/littenEvent.types';
+} from 'litmoss-hooks/dist/control/event/littenEvent.types';
 import { Mode } from '../../global/enum';
 
 import { Button } from '../../components/button/button';

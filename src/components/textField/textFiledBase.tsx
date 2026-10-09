@@ -1,5 +1,5 @@
 import classnames from 'classnames';
-import type { VisualStates } from 'litten-hooks/dist/control/userControl/userControl.types';
+import type { VisualStates } from 'litmoss-hooks/dist/control/userControl/userControl.types';
 
 import { getPrefixNs } from '../../global/util';
 

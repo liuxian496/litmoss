@@ -7,8 +7,8 @@ import { SliderStory } from '../../stories/slider.stories';
 import {
   LittenCheckedChangeEvent,
   LittenDisabledChangeEvent,
-} from 'litten-hooks/dist/control/event/littenEvent.types';
-import { Placement } from 'litten-hooks/dist/enum';
+} from 'litmoss-hooks/dist/control/event/littenEvent.types';
+import { Placement } from 'litmoss-hooks/dist/enum';
 
 import { Checkbox } from '../../components/checkbox/checkbox';
 import { FormLabel } from '../../components/formLabel/formLabel';

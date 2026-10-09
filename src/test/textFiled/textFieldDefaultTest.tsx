@@ -1,6 +1,6 @@
 import React from "react";
 
-import { TextFieldType } from "litten-hooks/dist/enum";
+import { TextFieldType } from "litmoss-hooks/dist/enum";
 
 import { TextFiledStory } from "../../stories/textField.stories";
 

@@ -1,5 +1,5 @@
-import type { LayoutControlProps } from 'litten-hooks/dist/control/layoutControl/layoutControl.types';
-import { Placement } from 'litten-hooks/dist/enum';
+import type { LayoutControlProps } from 'litmoss-hooks/dist/control/layoutControl/layoutControl.types';
+import { Placement } from 'litmoss-hooks/dist/enum';
 import { type CSSProperties } from 'react';
 
 export interface FormLabelProps extends LayoutControlProps {

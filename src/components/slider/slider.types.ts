@@ -1,7 +1,7 @@
-import type { ContentControlProps } from 'litten-hooks/dist/control/contentControl/contentControl.types';
-import type { DisabledControlProps } from 'litten-hooks/dist/control/disabledControl/disabledControl.types';
-import type { FocusControlProps } from 'litten-hooks/dist/control/focusControl/focusControl.types';
-import { Orientation } from 'litten-hooks/dist/enum';
+import type { ContentControlProps } from 'litmoss-hooks/dist/control/contentControl/contentControl.types';
+import type { DisabledControlProps } from 'litmoss-hooks/dist/control/disabledControl/disabledControl.types';
+import type { FocusControlProps } from 'litmoss-hooks/dist/control/focusControl/focusControl.types';
+import { Orientation } from 'litmoss-hooks/dist/enum';
 import { Color, Size } from '../../global/enum';
 
 export type SliderMark = {
@@ -19,9 +19,9 @@ export type SliderMarks = true | [{ value: number; label: string }];
 
 export interface SliderProps
   extends
-    FocusControlProps<HTMLInputElement>,
-    DisabledControlProps,
-    ContentControlProps<HTMLInputElement, number> {
+  FocusControlProps<HTMLInputElement>,
+  DisabledControlProps,
+  ContentControlProps<HTMLInputElement, number> {
   'aria-label'?: string;
   /**
    * 设置一个值，该值表示控件的使用风格

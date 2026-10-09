@@ -2,8 +2,8 @@ import React, { useRef } from 'react';
 
 import { expect, userEvent, waitFor, within } from 'storybook/test';
 
-import { LittenListChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
-import { SelectedValue } from 'litten-hooks/dist/control/userControl/userControl.types';
+import { LittenListChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
+import { SelectedValue } from 'litmoss-hooks/dist/control/userControl/userControl.types';
 import { Button } from '../../components/button/button';
 import { Listbox } from '../../components/listbox/listbox';
 import { ListBoxRef } from '../../components/listbox/listbox.types';

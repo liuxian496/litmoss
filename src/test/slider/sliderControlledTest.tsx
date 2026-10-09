@@ -4,7 +4,7 @@ import { expect, userEvent, within } from 'storybook/test';
 
 import { SliderStory } from '../../stories/slider.stories';
 
-import { LittenNumberChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
+import { LittenNumberChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
 import { Mode } from '../../global/enum';
 
 import { Button } from '../../components/button/button';

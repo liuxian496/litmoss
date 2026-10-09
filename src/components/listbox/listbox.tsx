@@ -9,19 +9,19 @@ import {
 } from 'react';
 
 import { ExceptionBoundary } from 'exception-boundary';
-import { useCurrentValue } from 'litten-hooks/dist/contentControl';
+import { useCurrentValue } from 'litmoss-hooks/dist/contentControl';
 import type {
   LittenItem,
   LittenItems,
   SelectedValue,
-} from 'litten-hooks/dist/control/userControl/userControl.types';
-import { ControlType, MouseState } from 'litten-hooks/dist/enum';
-import { usePrevious } from 'litten-hooks/dist/usePrevious';
+} from 'litmoss-hooks/dist/control/userControl/userControl.types';
+import { ControlType, MouseState } from 'litmoss-hooks/dist/enum';
+import { usePrevious } from 'litmoss-hooks/dist/usePrevious';
 import {
   getLastSelectedIndex,
   getNextListFocusIndex,
   useVirtualFocus,
-} from 'litten-hooks/dist/useVirtualFocus';
+} from 'litmoss-hooks/dist/useVirtualFocus';
 import isArray from 'lodash/isArray';
 
 import type { ListContextProps, ListboxProps } from './listbox.types';

@@ -1,7 +1,7 @@
 import './formLabel.less';
 
-import { useDisabled } from 'litten-hooks/dist/disabledControl';
-import { ControlType, MouseState, Placement } from 'litten-hooks/dist/enum';
+import { useDisabled } from 'litmoss-hooks/dist/disabledControl';
+import { ControlType, MouseState, Placement } from 'litmoss-hooks/dist/enum';
 
 import { type FormLabelProps } from '../formLabel/formLabel.types';
 import {

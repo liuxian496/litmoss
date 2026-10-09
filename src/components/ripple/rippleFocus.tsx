@@ -1,6 +1,6 @@
 import max from 'lodash/max';
 
-import { ControlType } from 'litten-hooks/dist/enum';
+import { ControlType } from 'litmoss-hooks/dist/enum';
 import type { RippleFocusProps } from './ripple.types';
 
 //直径需要减少的值

@@ -1,4 +1,4 @@
-import type { CheckedControlProps } from 'litten-hooks/dist/control/checkedControl/checkedControl.types';
+import type { CheckedControlProps } from 'litmoss-hooks/dist/control/checkedControl/checkedControl.types';
 import { Color, Size } from '../../global/enum';
 import type { RippleColor } from '../ripple/ripple.types';
 

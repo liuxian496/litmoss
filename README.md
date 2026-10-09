@@ -21,7 +21,7 @@ npm i litmoss
 litmoss，依赖下面的库。
 <code>classnames</code>
 <code>cyndi</code>
-<code>litten-hooks</code>
+<code>litmoss-hooks</code>
 <code>lodash</code>
 <code>number-precision</code>
 <code>react</code>

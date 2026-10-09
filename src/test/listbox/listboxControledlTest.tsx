@@ -3,8 +3,8 @@ import { expect, userEvent, within } from 'storybook/test';
 
 import { ListboxStory } from '../../stories/listbox.stories';
 
-import { Placement } from 'litten-hooks';
-import { LittenListChangeEvent } from 'litten-hooks/dist/control/event/littenEvent.types';
+import { Placement } from 'litmoss-hooks';
+import { LittenListChangeEvent } from 'litmoss-hooks/dist/control/event/littenEvent.types';
 import { FormLabel } from '../../components/formLabel/formLabel';
 import { Listbox } from '../../components/listbox/listbox';
 import { ListItem } from '../../components/listItem/listItem';
